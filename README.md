@@ -18,7 +18,7 @@ angular
 
 ### Create a task
 
-```
+```(html)
 <ul>
 	<li>
 		<div class="checkbox" ss-task> <!-- use the inner text as the key for local storage -->
@@ -30,7 +30,7 @@ angular
 
 or explicitly specify the task's key
 
-```
+```(html)
 <ul>
 	<li>
 		<div class="checkbox" ss-task="my-first-task">
