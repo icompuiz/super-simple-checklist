@@ -12,7 +12,7 @@ angular
 
 		ConfigBlock.$inject = ['ssChecklistProvider'];
 		function ConfigBlock(ssChecklistProvider) {
-			ssChecklistProvider.setLocalStoragePrefix('my-checklist');
+			ssChecklistProvider.setLocalStoragePrefix('my-checklist'); // Specify a prefix for local storage. Otherwise, use ss-checklist as the prefix.
 		}
 ```
 
@@ -21,7 +21,19 @@ angular
 ```
 <ul>
 	<li>
-		<div class="checkbox" ss-task>
+		<div class="checkbox" ss-task> <!-- use the inner text as the key for local storage -->
+			<input type="checkbox"> Create a checklist.
+		</div>
+	</li>
+</ul>
+```
+
+or explicitly specify the task's key
+
+```
+<ul>
+	<li>
+		<div class="checkbox" ss-task="my-first-task">
 			<input type="checkbox"> Create a checklist.
 		</div>
 	</li>
