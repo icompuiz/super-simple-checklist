@@ -1,6 +1,11 @@
 {
   "name": "ss-checklist",
-  "main": "ss-checklist.js, bower_components/angular/angular.min.js, bower_components/jquery/dist/jquery.min.js, bower_components/angular-local-storage/dist/angular-local-storage.min.js",
+  "main": [
+    "./ss-checklist.js", 
+    "./bower_components/angular/angular.min.js", 
+    "./bower_components/jquery/dist/jquery.min.js", 
+    "./bower_components/angular-local-storage/dist/angular-local-storage.min.js"
+  ],
   "description": "A super simple checklist",
   "moduleType": [],
   "keywords": [
