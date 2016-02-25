@@ -1,0 +1,29 @@
+{
+  "name": "ss-checklist",
+  "main": "ss-checklist.js, bower_components/angular/angular.min.js, bower_components/jquery/dist/jquery.min.js, bower_components/angular-local-storage/dist/angular-local-storage.min.js",
+  "description": "A super simple checklist",
+  "moduleType": [],
+  "keywords": [
+    "todo",
+    "checklist",
+    "tasks",
+    "notes"
+  ],
+  "authors": [
+    "icompuiz"
+  ],
+  "license": "MIT",
+  "homepage": "isioma.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.0",
+    "angular-local-storage": "^0.2.5",
+    "jquery": "1.12.0"
+  }
+}
